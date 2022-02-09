@@ -40,7 +40,7 @@ class Opt:
         elif constraint is None and ((algorithm is None) or (algorithm == "racos") or (algorithm == "sracos")) or (algorithm == "ssracos"):
             optimizer = RacosOptimization()
         else:
-            ToolFunction.log(
+            print(
                 "opt.py: No proper algorithm found for %s" % algorithm)
             return result
         if objective.get_reducedim() is True:
