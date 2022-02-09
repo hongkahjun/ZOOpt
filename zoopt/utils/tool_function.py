@@ -23,5 +23,4 @@ class ToolFunction:
         :param text: the text content
         :return: no return value
         """
-        pass
-#         print('[zoopt] '+text)
+        print('[zoopt] '+text)
